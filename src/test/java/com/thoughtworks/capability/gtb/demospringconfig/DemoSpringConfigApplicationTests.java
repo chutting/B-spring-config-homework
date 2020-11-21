@@ -12,6 +12,6 @@ class DemoSpringConfigApplicationTests {
 
 	@Test
 	void shouldReturnBasicWhenLessThanOne() throws Exception {
-		assertEquals("advanced", levelController.getLevel());
+		assertEquals("basic", levelController.getLevel());
 	}
 }
